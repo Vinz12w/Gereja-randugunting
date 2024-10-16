@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/ibadahstyle.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- font popins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- font Merriweather-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    
+    <!-- font Merriweather sans-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <!-- font playfair -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <!-- font lora -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <!-- feather icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!-- animate on scroll -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Document</title>
+</head>
+<body>
+  
+ <!-- animation loading load -->
+ <div class="loading">
+  <div class="circle">
+  <div class="circle_small">
+    <div class="circle1"></div>
+    <div class="circle2"></div>
+    <div class="circle3"></div>
+  </div>
+  <div class="circle_large">
+    <div class="circle1"></div>
+    <div class="circle2"></div>
+    <div class="circle3"></div>
+  </div>
+</div>  
+  <h1>GIA RANDUGUNTING....</h1>
+</div>
+
+<!-- modal Organitation -->
+<div class="management-modal-background">
+  <div class="management-modal">
+    <img src="img/logo-gia.png" alt="">
+    <div class="title-modal">Kepengurusan</div>
+    <div class="modal-content"></div>
+  </div>
+</div>
+
+<!-- modal poup galeri -->
+<div class="modal-galeri">
+  <div class="container-modal">
+    <div class="container-img"></div>
+  </div>
+ </div>
+ 
+  <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg bg-light navbar-light px-sm-5 pe-5 ps-1 w-100" id="navbar">
+      <div class="container-fluid">
+        <div class="col-11 col-lg -2">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <img id="logo" src="img/logo-gia.png" alt="Logo" class="d-inline-block me-2">
+          <span class="pt-1 mx-auto mx-lg-0 navbar-title">GIAR</span></a></div>
+          <div class="col-1 d-lg-none">
+            <div id="exit" class="ms-2"> <li data-feather="log-out" style="width: 100%;height: auto;"></li></div>
+          <div id="hamburger" class="container d-flex justify-content-center align-items-center">
+            <li data-feather="menu" style="color: white;"></li>
+          </div>
+      </div>
+      <div class="col-9">
+        <div class="navbar-collapse justify-content-end pe-1" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item px-2 nav-hover-bg" style="width:max-content;">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown px-2 nav-hover-bg" style="width:max-content;">
+              <a class="nav-link btn-dropdown" id="btndropdown-1" data-target="#dropdown-1" href="#" role="button" aria-expanded="false">
+                Tentang kami <i data-feather="triangle" class="triangle"></i>
+              </a>
+              <ul class="dropdownMenu hover-dropdown containsDropdown" id="dropdown-1">
+                <li><a class="dropdown-item" href="#">Gereja</a></li>
+                <li><a class="dropdown-item" href="#">Pelayan Tuhan</a></li>
+                <li><a class="dropdown-item" href="#">Hubungi Kami</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown px-2 nav-hover-bg" style="width:max-content;">
+              <a class="nav-link btn-dropdown" id="btndropdown-2" data-target="#dropdown-2" href="#" role="button" aria-expanded="false">
+                Pelayanan <i data-feather="triangle" class="triangle"></i>
+              </a>
+              <ul class="dropdownMenu hover-dropdown containsDropdown" id="dropdown-2" style="width: min-content;">
+                <li><a class="dropdown-item" href="#">Pendaftaran Jemaat</a></li>
+                <li class="nav-item dropdown" style="text-decoration: none;">
+                  <a class="dropdown-item btn-dropdown" id="btndropdown-3" data-target="#submenu" href="#" role="button" aria-expanded="false">
+                    Pelayanan Pastoral <i data-feather="triangle" class="triangle"></i>
+                  </a>
+                </li>
+              </ul>
+              <ul class="dropdownMenu" id="submenu">
+                <li><a class="dropdown-item" href="#">Pelayanan Doa</a></li>
+                <li><a class="dropdown-item" href="#">Baptisan Air</a></li>
+                <li><a class="dropdown-item" href="#">Pernikahan</a></li>
+                <li><a class="dropdown-item" href="#">Penyerahan Anak</a></li>
+              </ul>
+            </li>
+            <li class="nav-item px-2 nav-hover-bg" style="width:max-content;">
+              <a class="nav-link" href="#gallery">Persembahan</a>
+            </li>
+            <li class="nav-item px-2 nav-hover-bg" style="width:max-content;">
+              <a class="nav-link" href="#ibadah">Galeri</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      </div>
+    </nav>
+        <!-- navbar end -->
+    <!-- hero start -->
+    <div class="hero"><img src="" alt=""></div>
+    <!-- hero end -->
+     
+<!-- running text start -->
+<div class="container-fluid container-text">
+  <div class="running-text"></div>
+</div>
+<!-- running text end -->
+
+<!-- event info container start -->
+ <div class="event-info-content">
+  <div class="container-fluid">
+    <div class="row mb-3">
+      <div class="col-12 d-flex justify-content-center" id="title-event"></div>
+      <div class="col-12 d-flex justify-content-center" id="subtitle-event"></div>
+    </div>
+    <div class="countdown">
+      <div class="countdown-container">
+        <div class="tear-off-calender">
+          <div class="title">HARI <div class="circle1"></div><div class="circle2"></div></div>
+          <div class="tear-off-container">
+            <div class="tear-off-front"></div>
+            <div class="tear-off-back"></div>
+          </div>
+        </div>
+        <div class="tear-off-calender">
+          <div class="title">JAM  <div class="circle1"></div><div class="circle2"></div></div>
+         
+          <div class="tear-off-container">
+            <div class="tear-off-front"></div>
+            <div class="tear-off-back"></div>
+          </div>
+        </div>
+        <div class="tear-off-calender">
+          <div class="title">MENIT <div class="circle1"></div><div class="circle2"></div></div>
+          
+          <div class="tear-off-container">
+            <div class="tear-off-front"></div>
+            <div class="tear-off-back"></div>
+          </div>
+        </div>
+        <div class="tear-off-calender">
+          <div class="title">DETIK  <div class="circle1"></div><div class="circle2"></div></div>
+          <div class="tear-off-container">
+            <div class="tear-off-front"></div>
+            <div class="tear-off-back"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- event info container start-->
+    </div>
+    <div class="row d-flex justify-content-center" style="margin: 0px;">
+      <div class="col-sm-12 col-md-6 d-flex justify-content-center">
+        <div class="grid img-container-event" style="width: 95%;">
+                <div class="row w-100  d-flex align-items-end">
+                  <div class="col-6 d-flex p-1 justify-content-end">
+                    <div class="img-small"><img src="img/ibadah/event-img-small1.png" alt=""></div>
+                  </div>
+                  <div class="col-6 p-1">
+                    <div class="img-large d-flex align-items-end"><img src="img/ibadah/event-img-large1.png" alt="" alt=""></div>
+                  </div>
+                </div>
+                <div class="row w-100">
+                  <div class="col-6 p-1 d-flex justify-content-end">
+                    <div class="img-large"><img src="img/ibadah/event-img-large2.png" alt="" alt=""></div>
+                  </div>
+                  <div class="col-6 p-1">
+                    <div class="img-small d-flex align-items-start justify-content-start"><img src="img/ibadah/event-img-small2.png" alt="" alt=""></div>
+                </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-5 content-event">
+        <div class="col-12">Setiap <span class="dayEvent">Sabtu</span>, Pukul</div>
+        <div class="col-12"><span class="timeEvent">18.30</span> WIB</div>
+        <div class="col-12">
+          <button class="btn-event"><span>Join Us</span></button>
+        </div>
+      </div>
+  </div>
+ </div>
+<!-- event info container end -->
+<!-- description start -->
+ <div class="description-container">
+  <div class="description"></div>
+  <div class="btn-description">KEPENGURUSAN <img width="32" height="32" src="https://img.icons8.com/external-yogi-aprelliyanto-glyph-yogi-aprelliyanto/32/external-organization-business-planning-yogi-aprelliyanto-glyph-yogi-aprelliyanto.png" alt="external-organization-business-planning-yogi-aprelliyanto-glyph-yogi-aprelliyanto"/></div>
+ </div>
+<!-- description end -->
+<!-- Ayat alkitab start-->
+ <div class="container-ayat mx-auto"></div>
+<!-- Ayat alkitab end-->
+
+ <!-- galeri start -->
+
+  <div class="container-fluid galeri">
+    <div class="title">Galeri</div>
+    <div class="grid container-content-galeri">
+      <nav aria-label="..." class="d-flex justify-content-center">
+        <ul class="pagination pagination-lg">
+        </ul>
+      </nav>
+    <div class="row d-flex justify-content-center galeri-items align-items-start" id="container-galeri">
+    </div>
+  </div>
+  </div>
+ <!-- galeri end -->
+<!-- event start -->
+<div class="container-fluid event">
+  <div class="title">Event</div>
+  <i data-feather="chevron-left" class="icon-carousel" id="iconLeft"></i>
+  <i data-feather="chevron-right" class="icon-carousel" id="iconRight"></i>
+  <div class="container-carousel">
+    <div class="inner-carousel">
+      <div class="item"><img src="img/ibadah/event1.jpeg" alt=""></div>
+      <div class="item"><img src="img/ibadah/event2.jpeg" alt=""></div>
+      <div class="item active"><img src="img/ibadah/event3.jpeg" alt=""></div>
+      <div class="item"><img src="img/ibadah/event4.jpeg" alt=""></div>
+      <div class="item"><img src="img/ibadah/event5.jpeg" alt=""></div>
+    </div>
+  </div>
+</div>
+<!-- event end -->
+             <!-- footer start-->
+              <footer style="background-color: var(--pr-colorDark);">
+                <div class="container-fluid container-footer">
+                  <div class="row row1 container-fluid  mx-auto">
+                    <div class="col-lg-5 col-sm-12 col-md-7 col1 mx-auto" style="flex-direction: column;">
+                      <div class="col-12 d-flex row1">
+                        <img src="img/logo-gia.png" alt="Logo">
+                        <span>GIAR</span></a>
+                      </div>
+                      <div class="col-12 row2">QCMM+JGC, Krajan, Randugunting, Kec. Bergas, Kabupaten Semarang, Jawa Tengah 50552</div>
+                      <div class="col-12 row3 mx-auto ms-md-4">
+                        <ul class="mx-auto" style="padding-left: 0;">
+                          <div class="container-icon d-flex">
+                            <li data-feather="instagram" class="my-auto"></li><a href="https://www.instagram.com/gia_randugunting?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==s">gia_randugunting</a>
+                          </div>
+                          <div class="container-icon d-flex">
+                            <li data-feather="youtube" class="my-auto"></li><a href="https://www.youtube.com/@GIARandugunting">@GIARandugunting</a>
+                          </div>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-5 d-md-flex d-none col2" style="flex-direction: column;">
+                      <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">Tentang Kami</a></li>
+                        <li><a href="#">Layanan</a></li>
+                        <li><a href="#gallery">Galery</a></li>
+                        <li><a href="#ibadah">ibadah</a></li>
+                      </ul>  
+                    </div>
+                    <div class="col-lg-4 col-12 col3">
+                      <h1 class="text-center">Hubungi Kami</h1>
+                        <div class="row d-flex container-question" style="flex-direction: column;">
+                          <div class="col-12">
+                            <h2>Nama</h2>
+                            <input type="text">
+                          </div>
+                          <div class="col-12">
+                            <h2>No Hp</h2>
+                            <input type="text">
+                          </div>
+                          <div class="col-12">
+                            <h2>Pesan</h2>
+                            <textarea name="" id=""></textarea>
+                          </div>
+                          <div class="btn">Kirim</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row copyright text-light justify-content-center" style="margin-top: 4rem; font-style: italic; padding-bottom: 2rem;" >
+                    &copy; 2024 – GIA | Gereja Isa Almasih Randugunting. All Rights Reserved.
+                  </div>
+                </div>
+              </footer>
+             <!-- footer end-->
+             
+    <!-- bootstrap 5 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <!-- feather icon -->
+    <script>
+      feather.replace();
+    </script>
+    <!-- animate on scroll -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    
+       <!-- js local -->
+     <script src="js/style.js"></script>
+     <script type="module" src="js/ibadahstyle.js"></script>
+  </body>
+</html>
